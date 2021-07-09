@@ -4,7 +4,7 @@ node {
 	}
 	
 	stage('build the package') {
-		sh 'mvn package'
+		sh 'mvn clean package'
 	}
 	
 	stage('archival') {
